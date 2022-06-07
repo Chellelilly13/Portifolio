@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f2ebe9;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(illustrations/Header.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+li, a, button {
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 600;
+    font-size: 16px;
+    color: #99664a;
+    text-decoration: none;
+    background-color: #e3d2c8; 
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+   
+}
+
+.logo {
+    cursor: pointer;
+    font-family: 'Patrick hand', cursive;
+    background-color: #e3d2c8;
+    color: #FFF;
+  
+}
+
+.nav_links {
+    list-style: none;
+    background-color: #e3d2c8;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #722f09;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(250, 244, 241);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button.hover {
+    color:#722f09;
+}
+
+/* // FOOTER //  */
+
+footer {
+    width: 100%;
+    height: 100vh;
+    background-image: url(illustrations/Footer.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
